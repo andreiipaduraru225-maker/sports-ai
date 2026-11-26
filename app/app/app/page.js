@@ -86,31 +86,5 @@ import Fixtures from "./components/Fixtures";export default function Home() {
         borderRadius: 14,
         padding: 24,
       }}>
-        <h2 style={{ marginTop: 0 }}>Meciuri și pronosticuri</h2>
-        <p style={{ color: "#8996aa" }}>
-          Modulul de meciuri va afișa programul, statisticile și predicțiile
-          după conectarea sursei de date.
-        </p>
-        <div style={{
-          background: "#0b1321",
-          borderRadius: 10,
-          padding: 16,
-          color: "#21d4a0",
-        }}>
-          Așteaptă conectarea datelor API...
-        </div>
-      </section>
-
-      <footer style={{
-        marginTop: 50,
-        borderTop: "1px solid #263247",
-        paddingTop: 20,
-        color: "#718096",
-        fontSize: 13,
-        textAlign: "center",
-      }}>
-        SPORTS AI 2.0 · Football Intelligence
-      </footer>
-    </main>
-  );
+<Fixtures />
 }
