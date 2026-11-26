@@ -1,4 +1,4 @@
-export default function Home() {
+import Fixtures from "./components/Fixtures";export default function Home() {
   const sections = [
     ["⚽", "Goluri", "Goluri marcate și primite"],
     ["🎯", "Șuturi", "Șuturi totale și pe poartă"],
